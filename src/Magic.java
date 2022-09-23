@@ -1,2 +1,8 @@
-package PACKAGE_NAME;public class Magic {
+public class Magic extends Hero{
+    @Override
+    public void applySuperAbility() {
+        super.applySuperAbility();
+
+    }
+
 }
