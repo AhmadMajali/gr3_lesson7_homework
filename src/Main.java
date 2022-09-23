@@ -20,9 +20,10 @@ public class Main {
         System.out.println("Magic применил суперспособность" + " " + magic.getTypeOfTheSuperpower());
 
 
-        Hero[] heroes = {magic,medic,warrior};
+        Hero[] heroes = {medic,magic,warrior};
         for (int i = 0; i < heroes.length; i++) {
             heroes[i].applySuperAbility();
+            ((Medic)heroes[i]).healPoints();
         }
 
 
